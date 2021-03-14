@@ -169,21 +169,23 @@ a:hover {
 
 .footer__country {
     border-bottom: 1px solid #E4E4E4;
-    margin-left: 13px;
+    padding-left: 13px;
     color: #5f6368;
-}
-
-.footer__left {
-    float: left;
-    padding: 0;
-    margin-left: 4px;
-}
-
-.footer__right {
-    float: right;
-    margin-right: 25px;
 }
 
 .footer a {
     color: #5f6368;
   }
+
+.footer__left {
+    float: left;
+    padding: 0;
+    margin:0 0 0 4px;
+    
+}
+
+.footer__right {
+    float: right;
+    margin: 0 25px 0 0;
+}
+
